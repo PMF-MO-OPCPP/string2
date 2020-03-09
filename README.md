@@ -6,7 +6,7 @@ Treba napisati 8 funkcija za manipulaciju sa stringovima.
    Za kapitalizaciju koristimo funkciju `toupper()` i `<cctype>` zaglavlja.
 
 2. Funkcija pretvara velika slova u mala i vraća novi string s dekapitaliziranim znakovima.
-   Za dekapitalizaciju koristimo funkciju tolower() i <cctype> zaglavlja.
+   Za dekapitalizaciju koristimo funkciju `tolower()` i `<cctype>` zaglavlja.
 
 3. Funkcija invertira string i rezultat vraća kao novi string. 
 
@@ -35,10 +35,10 @@ Treba napisati 8 funkcija za manipulaciju sa stringovima.
    odijeljenih zadanim tokenom (argument delimiter). Riječi mogu biti 
    odvojene i sa više uzastopnih delimitera. Vratiti sve riječi kao 
    vektor stringova. Ulazni string ne mijenjati. 
-   Implementacija: koristiti std::getline() na std::strinstream objektu.  
+   Implementacija: koristiti `std::getline()` na `std::strinstream` objektu.  
 
 
 Samo u osmoj funkciji se smije koristiti (jedna) petlja. U svim  ostalim funkcijama 
 ne smije biti  petlji. Svu funkcionalnost treba implementirati pomoću metoda članica klase
-std::string i algoritmima (iz zaglavlja +<algorithm>+).
+`std::string` i algoritmima (iz zaglavlja `<algorithm>`).
 
