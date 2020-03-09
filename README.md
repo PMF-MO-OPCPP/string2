@@ -3,7 +3,7 @@ Treba napisati 8 funkcija za manipulaciju sa stringovima.
 
 
 1. Funkcija pretvara mala slova u velika i vraća novi string s kapitaliziranim znakovima.
-   Za kapitalizaciju koristimo funkciju toupper() i <cctype> zaglavlja.
+   Za kapitalizaciju koristimo funkciju `toupper()` i `<cctype>` zaglavlja.
 
 2. Funkcija pretvara velika slova u mala i vraća novi string s dekapitaliziranim znakovima.
    Za dekapitalizaciju koristimo funkciju tolower() i <cctype> zaglavlja.
