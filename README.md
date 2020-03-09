@@ -42,3 +42,6 @@ Samo u osmoj funkciji se smije koristiti (jedna) petlja. U svim  ostalim funkcij
 ne smije biti  petlji. Svu funkcionalnost treba implementirati pomoću metoda članica klase
 `std::string` i algoritmima (iz zaglavlja `<algorithm>`).
 
+Signature funkcija koje treba napisati dane su u datoteci `include/strutils.h`. Implementacija 
+ide u `src/strutils.cpp`. U datoteci `src/main.cpp` testira se vlastiti kod. 
+
